@@ -8,25 +8,24 @@ from rango.models import Category, Page
 def populate():
     python_pages = [
         {"title": "Official Python Tutorial",
-            "url": "http://docs.python.org/2/tutorial/"},
+        "url": "http://docs.python.org/2/tutorial/", "views": 34},
         {"title": "How to Think like a Computer Scientist",
-            "url": "http://www.greenteapress.com/thinkpython"},
+        "url": "http://www.greenteapress.com/thinkpython", "views": 10},
         {"title": "Learn Python in 10 Minutes",
-            "url": "http://korokithakis.net/tutorials/python/"}
+        "url": "http://korokithakis.net/tutorials/python/", "views": 15}
     ]
     django_pages = [
         {"title": "Official Django Tutorial",
-            "url":"https://docs.djangoproject.com/en/1.9/intro/tutorial01/"},
-        {"title":"Django Rocks",
-            "url":"http://www.djangorocks.com/"},
+        "url":"https://docs.djangoproject.com/en/1.9/intro/tutorial01/",
+        "views": 13},
+        {"title":"Django Rocks", "url":"http://www.djangorocks.com/",
+        "views": 12},
         {"title":"How to Tango with Django",
-            "url":"http://www.tangowithdjango.com/"}
+        "url":"http://www.tangowithdjango.com/", "views": 11}
     ]
     other_pages = [
-        {"title":"Bottle",
-            "url":"http://bottlepy.org/docs/dev/"},
-        {"title":"Flask",
-            "url":"http://flask.pocoo.org"}
+        {"title":"Bottle", "url":"http://bottlepy.org/docs/dev/", "views": 9},
+        {"title":"Flask", "url":"http://flask.pocoo.org", "views": 10}
     ]
     # Dictionary of dictionaries holding each category,
     # mapped to its dict of pages
