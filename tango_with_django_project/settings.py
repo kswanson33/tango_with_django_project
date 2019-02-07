@@ -110,6 +110,10 @@ AUTH_PASSWORD_VALIDATORS = [
 # Specify where to redirect if not logged in
 LOGIN_URL = '/rango/login/'
 
+# Session length specifications
+SESSION_EXPIRE_AT_BROWSER_CLOSE = True
+
+SESSION_COOKIE_AGE = 1209600 # 14 days
 
 # Internationalization
 # https://docs.djangoproject.com/en/1.11/topics/i18n/
